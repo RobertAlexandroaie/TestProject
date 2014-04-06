@@ -1,0 +1,176 @@
+body{
+	width:100%;
+	margin:0 auto;
+	background-image: url('../../images/itemPage/backg.png');
+}
+
+h1 {
+	font-size: 2em;
+}
+
+#details, #description {
+	width: 65%;
+	float: left;
+}
+#details li, #details li * {
+	float: left;
+	clear: both;
+}
+
+.center {
+	margin: 0 auto;
+	width: 50%;
+	height: 70%;
+}
+
+#image, #description {
+	float: left;	
+/* 	margin-top: 3%; */
+}
+
+.footer{
+/* 	position:absolute; */
+	bottom:0;
+	width: 100%;
+/* 	height: 19%; */
+	margin: 3% 0% 0.5% 0%;
+	border: 1px solid #909090;
+	clear:both;
+}
+
+#payId{
+	margin-top:0.5%;
+	margin-left: 5%;
+	font-size: 20px;
+	font-family: "Times new roman",Times,serif;
+	margin-bottom: 0.1%;
+}
+
+#image{
+	width: 25%;
+/* 	height: 30%; */
+	margin-right: 5px;
+}
+
+.bidClass {
+	width:100%;
+	margin:0 auto;	
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	background-color: #E8E8E8 ;
+	margin-bottom: 0.1%;
+	margin-left:7%;
+}
+
+#end-time {
+	font-size: small;
+	margin-top: 0.1%;
+	color: #707070 ;
+}
+#name {
+	margin-bottom: 0.1%;
+}
+
+#last-bid, #buyout{
+	padding:2% 0% 0% 8%;
+	font-size: 20px;
+}
+
+#bidTextbox{
+	float:left;
+	width:17%;
+	margin-left: 45%;
+	margin-top: -3%; 
+}
+
+#min-bid{
+	padding:0% 0% 0.3% 45%;
+	font-size: 13px;
+}
+
+#user{
+	margin-top:5%;
+	font-family: "Times new roman",Times, serif;
+	font-style: oblique;
+	font-size: 25px;
+	margin-left:7%;
+}
+
+.placebid{
+	margin-top:1%;
+	margin-left:46%;
+	-webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	font-size:12px;
+	font-weight:700;
+	padding:0.2% 3%;
+	height:28px;
+	color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#description {
+	height: auto;
+	margin-left: 5%;
+	margin-top:0; 
+}
+#restrictions {	
+	padding-left: 0;
+}
+#restrictions label, .locations {
+	float: left;
+	margin-right: 4px;
+}
+
+.commentClass{
+	float:left;
+	width:100%;
+	margin-left:0;
+	height: 30%;
+	background-color: #D0D0D0;
+}
+.ulfooter {
+	padding-left: 0;
+	margin-top: 0;
+}
+
+#comm1{
+	margin-left: 5%;
+	font-size: 12px;
+}
+
+#comm2{
+	margin-left: 30%;
+	font-size: 12px;
+}
+
+#paypal{
+	float:left;
+	padding:0% 0% 0% 3%;
+	width: 20%;
+}
+
+#paypalpreff{
+	padding:3% 0% 0% 45%;
+	font-size: 12px;
+}
+
+#sellInstruct{
+	padding: 0% 0% 0% 3%;
+	font-size: 13px;
+	clear:both;
+}
+
+#instruction{
+	padding:0% 3%;
+	font-size: 12px;
+}
+ul, ol {
+	list-style: none;
+}

@@ -1,0 +1,196 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.clear-both {
+	clear: both;
+}
+
+#top-header {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: auto;
+}
+
+.top {
+	width: 80%;
+	margin: 0 auto;
+	height: 100px; /*tr schimbat si .content-wrap top*/
+}
+/* optiuni:login,register,cart*/
+#top-list-options {
+	background-color: #447294;
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+	height: 30%;
+}
+
+#top-list-options li {
+	float: right;
+	padding: 3px 20px;
+	height: auto;
+	/*border-left:1px solid  #000;*/
+}
+
+#top-list-options li a {
+	text-decoration: none;
+	color: #000;
+}
+
+#top-list-options li:hover {
+	background-color: #8fbcdb;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* actiuni: search,logo image*/
+#top-list-actions {
+	background-color: #b7ddeb;
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+	height: 70%;
+}
+
+#top-list-actions li {
+	float: left;
+	padding: 10px 20px;
+	height: auto;
+}
+
+#logo {
+	width: 15%;
+	display: inline-block;
+}
+/* search action*/
+#searchbox {
+	width: 45%;
+	padding: 1px;
+	overflow: hidden; /* Clear floats */
+}
+
+#search,#submit {
+	float: left;
+}
+
+#search {
+	border: 1px solid #a4c3ca;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+	background: #f1f1f1;
+	-moz-border-radius: 5px 0px 0px 5px;
+	border-radius: 5px 0px 0px 5px;
+	width: 60%;
+}
+
+#submit {
+	background: #8fbcdb;
+	-moz-border-radius: 0px 5px 5px 0px;
+	border-radius: 0px 5px 5px 0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7eba7c #578e57 #447d43;
+	padding: 6px 0px;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+	color: #23441e;
+	width: 20%;
+}
+
+#submit:hover {
+	background: #f4d6bc;
+}
+
+#submit:active {
+	background: #f4d6bc;
+	outline: none;
+}
+
+#submit::-moz-focus-inner {
+	border: 0; /* Small centering fix for Firefox */
+}
+
+.content-wrap {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	top: 110px;
+	background: #b7ddeb;
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+}
+
+#categories {
+	padding-top: 3%;
+	width: 80%;
+	list-style: none outside none;
+	padding-left: 10%;
+	position: relative;
+	height: 100%;
+}
+
+#categories li {
+	background: #fff;
+	border: 2px solid #000;
+	float: left;
+	padding: 10px 20px;
+	width: auto;
+	height: auto;
+	color: #29a9db;
+	font-size: 16px;
+	cursor: pointer;
+}
+#categories li:hover{
+	background: #cff;
+}
+
+/*filter*/
+#filter-options {
+	padding-top: 6%;
+	padding-bottom: 3%;
+	width: 80%;
+	list-style: none outside none;
+	padding-left: 1%;
+	position: relative;
+	height: 100%;
+}
+
+#filter-options li {
+	float: left;
+	padding: 10px 20px;
+	width: auto;
+	height:auto;
+	color: #29a9db;
+	font-size: 16px;
+	cursor: pointer;
+}
+#filter-options li:hover{
+	background: #fff;
+	cursor: pointer;
+}
+
+#main-content {
+	background: #b7ddeb;
+	width: 100%;
+	margin: 0 auto;
+}
+#dynamicTable{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#footer {
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	width: 100%;	
+	background: #6cf;
+}
+ul,ol{
+	list-style: none;
+}

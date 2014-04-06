@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Class-Path: antlr-2.7.6.jar aopalliance-1.0.jar asm-3.1.jar aspectjrt-
+ 1.6.8.jar aspectjweaver-1.6.8.jar cglib-2.2.jar commons-beanutils-1.8
+ .3.jar commons-codec-1.5.jar commons-collections-3.2.1.jar commons-db
+ cp-1.4.jar commons-digester-2.0.jar commons-logging-1.1.1.jar commons
+ -pool-1.5.4.jar dom4j-1.6.1.jar hibernate-annotations-3.5.1-Final.jar
+  hibernate-commons-annotations-3.2.0.Final.jar hibernate-core-3.5.1-F
+ inal.jar hibernate-entitymanager-3.5.1-Final.jar hibernate-jpa-2.0-ap
+ i-1.0.0.Final.jar hibernate-validator-4.1.0.Final.jar jackson-core-as
+ l-1.8.3.jar jackson-jaxrs-1.8.3.jar jackson-mapper-asl-1.8.3.jar java
+ ssist-3.9.0.GA.jar jcl-over-slf4j-1.5.8.jar jstl-1.2.jar jta-1.1.jar 
+ log4j-1.2.13.jar ojdbc14.jar slf4j-api-1.5.8.jar slf4j-log4j12-1.4.2.
+ jar spring-aop-3.0.5.RELEASE.jar spring-asm-3.0.5.RELEASE.jar spring-
+ beans-3.0.5.RELEASE.jar spring-binding-2.3.0.RELEASE.jar spring-conte
+ xt-3.0.5.RELEASE.jar spring-context-support-3.0.5.RELEASE.jar spring-
+ core-3.0.5.RELEASE.jar spring-expression-3.0.3.RELEASE.jar spring-jdb
+ c-3.0.5.RELEASE.jar spring-js-2.3.0.RELEASE.jar spring-js-resources-2
+ .3.0.RELEASE.jar spring-orm-3.0.5.RELEASE.jar spring-security-config-
+ 3.0.5.RELEASE.jar spring-security-core-3.0.5.RELEASE.jar spring-secur
+ ity-web-3.0.5.RELEASE.jar spring-tx-3.0.5.RELEASE.jar spring-web-3.0.
+ 3.RELEASE.jar spring-webflow-2.3.0.RELEASE.jar spring-webmvc-3.0.5.RE
+ LEASE.jar standard-1.1.2.jar tiles-api-2.2.2.jar tiles-core-2.2.2.jar
+  tiles-jsp-2.2.2.jar tiles-servlet-2.2.2.jar tiles-template-2.2.2.jar
+  validation-api-1.0.0.GA.jar xml-apis-1.0.b2.jar
+
