@@ -52,11 +52,6 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.0-alpha4</version>
-		</dependency>
 
 
 		<dependency>
@@ -377,6 +372,7 @@
 	<build>
 		<plugins>
 			<plugin>
+			<version>3.1</version>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
